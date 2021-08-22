@@ -1,4 +1,4 @@
-autoload -Uz compinit && compinit 
+autoload -Uz compinit && compinit
 zmodload zsh/complist
 
 setopt COMPLETEALIASES        # complete alisases
@@ -8,7 +8,7 @@ bindkey -M menuselect         '/'          history-incremental-search-forward	# 
 
 zstyle ':completion:*'        menu         select		# Enable menu completion for all (change to 'yes select' to start from menu)
 zstyle ':completion:*'        special-dirs no
-zstyle ':completion:*'        matcher-list 'm:{a-z}={A-Z}'      # Ignore cASE
+zstyle ':completion:*'        matcher-list 'm:{a-z}={A-Z}'      # Ignore CASE
 zstyle ':completion:*:make:*' tag-order    targets		# Makefile completion
 
 # Python PIP completion
