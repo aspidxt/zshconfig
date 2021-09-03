@@ -1,2 +1,4 @@
 plugins/**/
 .histfile
+.antigenrc.zwc
+.antigenrc
